@@ -1,0 +1,233 @@
+*{
+   margin:0;
+    padding:0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(Retangulo%203.jpg);
+  display: grid;
+  width: 100%;
+
+}
+
+main{
+   width: 1200px;
+   margin: auto;
+}
+
+header{
+    background-color: #100b28;
+    width:100%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    align-items:center; 
+}
+
+nav {
+    font-family: urbane-rounded, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 1200px;
+}
+
+.menu {
+    display: flex;
+    align-items: baseline
+
+}
+
+.logosite{
+   text-align: left;
+}
+
+li{
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+li a:hover{
+     border-bottom: solid 4px;
+     border-bottom-color: orange;
+     border-bottom-left-radius: 1.5px;
+     border-bottom-right-radius: 1.5px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #a5a5a5;
+    
+}
+
+nav a:hover{
+    color: white;
+    font-weight:bold;
+    
+}
+
+ul{
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+   text-align: center;
+   align-items: baseline;
+   margin: auto;
+}
+
+/*menu2*/
+
+.jobs ul a:hover{
+    color: orange;
+}
+
+
+.jobs ul{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    padding-top: 45px;
+    width: 780px;
+    font-family: urbane-rounded, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+
+
+.jobs a{
+    color: #6a1dff;
+}
+/*Trabalhos*/
+
+.trabalhos{
+    margin: 90px auto 90px auto;
+    justify-content: center;
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: flex-start;
+}
+
+.trabalhos div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 467px;
+    gap: 20px;
+}
+
+.trabalhos img{
+    
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: all 0.3s;
+    transition: transform .5s ease;
+}
+
+.trabalhos img:hover{
+    transform: scale(1.1);
+}
+
+.foto{
+    height: auto;
+    align-self: start;
+}
+/*Footer*/
+
+footer{
+    background: #100b28;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+footer h3{
+    font-family: uquicksand, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+footer p{
+    font-family: uquicksand, sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px
+}
+
+
+.socialmidiaf{
+    text-align-last: center;
+    margin-bottom: 25px; 
+}
+
+.socialmidiaf a{
+    padding: 5px;
+    align-items: center;
+}
+
+/*Fontes*/
+
+h2{
+    font-family: urbane-rounded, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #6a1dff;
+    
+}
+
+h3{
+    font-family: uquicksand, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h4{
+    font-family: uquicksand, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    }
+
+
+p{
+    font-family: quicksand, sans-serif;
+    font-style: medium;
+    font-weight: 600;
+}
+
+
+.socialmenu{
+    margin-left: auto;
+}
+
+.socialmenu a {
+    padding: 1.5px;
+    
+    
+}
+
+.menu {
+    width: 700px;
+}
+
+.botao-topo {
+    margin: auto 20px 20px auto;
+    height: 60px;
+}
